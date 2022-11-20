@@ -1,0 +1,187 @@
+@font-face{
+    font-family: myFont;
+    src:url(/CursedTimerULiL.ttf)
+}
+@font-face{
+    font-family: myFont2;
+    src:url(/Verdana.ttf)
+}
+body{
+    position: relative;
+    width: 575px;
+    height: 385px;
+    background: #1B244A;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+.home-board-title{
+    position: absolute;
+    width: 149px;
+    height: 36px;
+    left: 85px;
+    top: 68px;
+    font-family: myFont2;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    text-align: center;
+    color: #EEEEEE;
+}
+.guest-board-title{
+    position: absolute;
+    width: 149px;
+    height: 36px;
+    left: 340px;
+    top: 68px;
+    font-family: myFont2;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    text-align: center;
+    color: #EEEEEE;
+}
+.home-score{
+    position: absolute;
+    width: 155px;
+    height: 120px;
+    left: 82px;
+    top: 125px;
+    background: #080001;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+.guest-score{
+    position: absolute;
+    width: 155px;
+    height: 120px;
+    left: 337px;
+    top: 125px;
+    background: #080001;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+#home-points{
+    position: absolute;
+    width: 117px;
+    height: 120px;
+    left: 100px;
+    top: 125px;
+    font-family: myFont;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    text-align: center;
+    color: #F94F6D;
+    margin-top: 45px;
+}
+#guest-points{
+    position: absolute;
+    width: 117px;
+    height: 120px;
+    left: 355px;
+    top: 125px;
+    font-family: myFont;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    text-align: center;
+    color: #F94F6D;
+    margin-top: 45px;
+}
+.add-points-btns-guest{
+    position: absolute;
+    width: 155px;
+    height: 45px;
+    left: 337px;
+    top: 271px;
+}
+.add-points-btns-home{
+    position: absolute;
+    width: 155px;
+    height: 45px;
+    left: 82px;
+    top: 271px;
+}#plus-one-point-home {
+    box-sizing: border-box;
+    position: absolute;
+    font-family: myFont;
+    width: 45px;
+    height: 45px;
+    left: 82px;
+    top: 271px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    margin-top: 50px;
+    background: #9AABD8;
+}
+#plus-two-points-home{
+    box-sizing: border-box;
+    position: absolute;
+    font-family: myFont;
+    width: 45px;
+    height: 45px;
+    left: 136px;
+    top: 271px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    margin-top: 50px;
+    background: #9AABD8;
+}
+#plus-three-points-home{
+    box-sizing: border-box;
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    font-family: myFont;
+    left: 192px;
+    top: 271px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    margin-top: 50px;
+    background: #9AABD8;
+}
+#plus-one-point-guest {
+    box-sizing: border-box;
+    position: absolute;
+    width: 45px;
+    font-family: myFont;
+    height: 45px;
+    left: 337px;
+    top: 271px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    margin-top: 50px;
+    background: #9AABD8;
+}
+#plus-two-points-guest{
+    box-sizing: border-box;
+    position: absolute;
+    font-family: myFont;
+    width: 45px;
+    height: 45px;
+    left: 391px;
+    top: 271px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    margin-top: 50px;
+    background: #9AABD8;
+}
+#plus-three-points-guest{
+    box-sizing: border-box;
+    position: absolute;
+    font-family: myFont;
+    width: 45px;
+    height: 45px;
+    left: 447px;
+    top: 271px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    margin-top: 50px;
+    background: #9AABD8;
+}
